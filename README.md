@@ -591,16 +591,4 @@ X-RateLimit-Reset: 1640995200
 - Decline: `4000 0000 0000 0002`
 - Authentication Required: `4000 0025 0000 3155`
 
-
-### Test Environment
-
-Base URL for testing:
-
-```plaintext
-https://api-test.yourdomain.com/v1
-```
-
-```plaintext
-
-This API documentation provides a comprehensive overview of all endpoints, including authentication, request/response formats, error handling, rate limiting, and testing information. Each endpoint is documented with example requests and responses, making it easy for developers to integrate with the system.
-```
+![Work Flow Of Website](structure1.png)
