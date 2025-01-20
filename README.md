@@ -198,3 +198,51 @@ const singleProductSlice = createSlice({
 export const { setSingleProduct } = singleProductSlice.actions;
 export const selectSingleProduct = (state) => state.singleProduct.selectedProduct;
 export default singleProductSlice.reducer;
+
+```   
+
+# DAY 4
+
+# Hackathon E-commerce Project
+
+## Project Overview
+This e-commerce project is being developed as part of a hackathon. The goal is to create a functional and user-friendly online shopping platform where users can browse items, add them to the cart, manage their wishlist, and search for products using filters.
+
+## Features Implemented Today
+### 1. **Component Creation**
+   Today, I focused on creating the core components for the e-commerce site. These components serve as building blocks for the user interface and will be reused throughout the platform. Some key components created include:
+   - **Product Card**: Displays product information such as name, price, image, and a button to add it to the cart.
+   - **Product List**: A container for the individual product cards that dynamically populate based on the available inventory.
+   - **Cart**: Displays the list of items the user has added to the cart along with the total price and a checkout option.
+   - **Wishlist**: Allows users to save their favorite items for future reference or purchase.
+   - **Search Bar**: A search field that allows users to filter products by name.
+
+### 2. **Add to Cart Functionality**
+   I implemented the **Add to Cart** functionality, which allows users to add products to their cart. 
+   - Users can click on the "Add to Cart" button located on each product card.
+   - The cart dynamically updates to reflect the added item, including the item name, quantity, and total price.
+   - The cart persists the added items even if the user navigates to other pages or reloads the page.
+
+### 3. **Wishlist Feature**
+   A **Wishlist** feature was also added today, allowing users to save products they are interested in but not ready to purchase.
+   - Users can click on a "Add to Wishlist" button to save products.
+   - The wishlist is separate from the shopping cart and provides users with the ability to view and manage their saved items later.
+   - A simple UI was implemented to view the wishlist and remove items if desired.
+
+### 4. **Search Bar and Filtering by Name**
+   I implemented a **Search Bar** to allow users to filter products by name.
+   - The search bar dynamically updates the product list as the user types.
+   - The list is filtered based on matching product names, making it easier for users to find specific items.
+   - This search functionality enhances the user experience by allowing faster product discovery.
+
+## Future Work
+While today’s work focused on building the core components and functionality, the following features and improvements are planned for future development:
+   - **User Authentication**: Implementing user login and registration to allow for personalized experiences, including managing the cart and wishlist.
+   - **Checkout Process**: Integrating a smooth checkout process with payment options.
+   - **Product Sorting and Filters**: Implementing more advanced filtering options such as sorting by price, category, and ratings.
+   - **Mobile Responsiveness**: Enhancing the design for mobile devices to ensure accessibility on all screen sizes.
+
+## Conclusion
+In today’s development, I successfully created reusable components for the platform, implemented the add-to-cart functionality, integrated a wishlist feature, and built a search bar for filtering products by name. These features lay the foundation for a functional e-commerce platform, with many more features planned for completion in the upcoming days of the hackathon.
+
+
