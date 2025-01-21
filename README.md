@@ -276,6 +276,7 @@ The testing focused on ensuring that the APIs provided by the E-commerce platfor
 - **Result:** Success
 - **Details:** The login API returns the expected status code (200 OK) and the authentication token when valid credentials are provided.
 
+![Login page](login.png)
 ---
 
 ### 2.2 Signup API
@@ -289,6 +290,8 @@ The testing focused on ensuring that the APIs provided by the E-commerce platfor
   - **Response Body:** `{ "message": "User created successfully" }`
 - **Result:** Success
 - **Details:** The signup API works as expected. A new user is created successfully, and the API returns the correct response body.
+
+![SignUp page](signup.png)
 
 ---
 
@@ -310,6 +313,8 @@ The testing focused on ensuring that the APIs provided by the E-commerce platfor
 - **Result:** Success
 - **Details:** The API returns a list of products with the correct format and data.
 
+![Products](product.png)
+
 ---
 
 ### 2.4 Add to Cart API
@@ -323,6 +328,8 @@ The testing focused on ensuring that the APIs provided by the E-commerce platfor
   - **Response Body:** `{ "message": "Product added to cart" }`
 - **Result:** Success
 - **Details:** The API successfully adds products to the cart and returns the expected response.
+
+![Cart Test](cart.png)
 
 ---
 
@@ -371,3 +378,4 @@ The core APIs of the e-commerce platform have been successfully tested and are w
 **Testing Status:** Passed  
 **Tested by:** Muhammad Talha  
 **Date:** January 21, 2025
+
