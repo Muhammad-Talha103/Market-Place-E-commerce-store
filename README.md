@@ -375,6 +375,15 @@ The testing focused on ensuring that the APIs provided by the E-commerce platfor
 
 The core APIs of the e-commerce platform have been successfully tested and are working as expected. There were no critical issues identified during the testing phase. The APIs are now ready for production use.
 
+
+| Test Case ID | Test Description                        | Expected Result                             | Status (Pass/Fail) |
+|--------------|-----------------------------------------|---------------------------------------------|--------------------|
+| TC001        | Add to Cart                             | Product added to cart successfully.         |     pass           |
+| TC002        | Wishlist                                | Product added to wishlist.                  |     pass           |
+| TC003        | Signup                                  | User signs up successfully.                 |     pass           |
+| TC004        | Login                                   | User logs in successfully.                  |     pass           |
+| TC005        | Order Completion                        | Order is completed successfully.            |     pass           |
+
 **Testing Status:** Passed  
 **Tested by:** Muhammad Talha  
 **Date:** January 21, 2025
