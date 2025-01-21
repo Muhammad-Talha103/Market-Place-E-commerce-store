@@ -251,8 +251,7 @@ In today's development, I successfully created reusable components for the platf
 # API Testing Report
 
 **Project Name:** E-commerce Platform  
-**Testing Date:** January 21, 2025  
-**Tested by:** [Your Name]  
+**Testing Date:** January 21, 2025    
 **Version:** 1.0
 
 ---
